@@ -1,0 +1,37 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Call for Papers"
+    url: /calls/submissions
+
+  - title: "Program"
+    url: /program/
+
+  - title: "Venue"
+    url: /venue
+
+  - title: "Committees"
+    url: /organization/
+
+  - title: "ICSA 2027"
+    url: https://conf.researchr.org/home/icsa-2027
+
+program:
+  - title: Program
+    children:
+      - title: "Workshop Program"
+        url: /program/
+      - title: "Keynote"
+        url: /program/keynotes/
+
+committees:
+  - title: Committees
+    children:
+      - title: "Steering Committee"
+        url: /steering/
+      - title: "Organizing Committee"
+        url: /organization/
+      - title: "Program Committee"
+        url: /committees/program/

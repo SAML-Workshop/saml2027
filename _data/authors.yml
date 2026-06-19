@@ -1,0 +1,9 @@
+saml2027:
+  name        : "SAML 2027 Organizing Committee"
+  bio         : "6th International Workshop on Software Architecture and Machine Learning"
+  location    : "Sydney, Australia"
+  avatar      : "/assets/images/SAML2027-logo.png"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sa-ml.github.io/saml2027/"
