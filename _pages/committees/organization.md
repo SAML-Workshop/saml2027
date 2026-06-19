@@ -26,7 +26,7 @@ sidebar:
    name="Jieshan Chen"
    picture="/assets/images/committee/jieshan_chen.jpg"
    institution="CSIRO, Australia"
-   email = "jieshan.chen@data61.csiro.au"
+   email = "jieshan.chen@csiro.au"
 %}
 
 {% include committee-member.html
