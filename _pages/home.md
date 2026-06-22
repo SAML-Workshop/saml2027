@@ -40,4 +40,4 @@ SAML keeps its established identity while explicitly broadening its scope for th
 | **Camera-ready submission** | Jan 29, 2027
 | **Author registration** | See the [ICSA 2027 website](https://conf.researchr.org/home/icsa-2027)
 | **Workshop** | TBA
-{: .news-table}
+{: .news-table .dates-table}

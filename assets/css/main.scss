@@ -136,6 +136,10 @@ $link-color: #2020df;
   font-size: .75em;
 }
 
+.layout--splash .page__content .dates-table tr td:nth-child(1) {
+  width: 15em;
+}
+
 .cfp-direction-grid,
 .cfp-submission-grid {
   display: grid;
