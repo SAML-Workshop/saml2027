@@ -35,8 +35,9 @@ SAML keeps its established identity while explicitly broadening its scope for th
 <b>All deadlines are 11:59 pm <a target="_blank" href="https://www.timeanddate.com/time/zone/timezone/utc-12">UTC -12h</a> ("Anywhere on Earth").</b>
 
 {: .news-table}
-| **Paper submission deadline** | TBA
-| **Notification of acceptance** | TBA
-| **Camera-ready due** | TBA
+| **Abstract submission** | Dec 16, 2026
+| **Paper submission** | Dec 20, 2026
+| **Notification of acceptance** | Jan 19, 2027
+| **Camera-ready submission** | Jan 29, 2027
 | **Author registration** | See the [ICSA 2027 website](https://conf.researchr.org/home/icsa-2027)
 | **Workshop** | TBA

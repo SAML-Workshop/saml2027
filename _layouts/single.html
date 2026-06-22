@@ -35,7 +35,20 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {% if page.toc %}
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}{% if page.cfp_glance %} cfp-sidebar{% endif %}">
+            {% if page.cfp_glance %}
+              <section class="toc cfp-sidebar-glance" aria-label="At a glance">
+                <header><h4 class="nav__title"><i class="fas fa-calendar-alt"></i> At a Glance</h4></header>
+                <ul class="toc__menu cfp-sidebar-glance__list">
+                  {% for item in page.cfp_glance %}
+                    <li class="cfp-sidebar-glance__item">
+                      <span class="cfp-sidebar-glance__label">{{ item.label }}</span>
+                      <span class="cfp-sidebar-glance__value">{{ item.value }}</span>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=4 class="toc__menu" %}
