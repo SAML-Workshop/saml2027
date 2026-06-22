@@ -13,7 +13,12 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% if site.github.build_revision %}
+  {% assign css_cache_bust = site.github.build_revision %}
+{% else %}
+  {% assign css_cache_bust = site.time | date: "%s" %}
+{% endif %}
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ css_cache_bust }}">
 
 <!--[if IE ]>
   <style>
