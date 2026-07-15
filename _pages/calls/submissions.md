@@ -18,9 +18,6 @@ cfp_glance:
     value: "Best Paper/Presentation"
 ---
 
-
-## Call for Papers
-
 **Theme for 2027: Software Architecture Meets Agentic AI**
 {: .notice--info}
 
