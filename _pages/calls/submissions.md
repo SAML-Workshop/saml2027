@@ -21,10 +21,10 @@ cfp_glance:
 
 ## Call for Papers
 
-**Theme for 2027: Software Architecture Meets Agentic AI**, covering both **software architecture for agentic AI systems** and **agentic AI for software architecture**.
+**Theme for 2027: Software Architecture Meets Agentic AI**
 {: .notice--info}
 
-SAML, the International Workshop on Software Architecture and Machine Learning (SAML) brings together researchers and practitioners working at the intersection of software architecture and modern ML techniques, including classical ML, LLMs, GenAI, and agentic AI. The workshop covers both directions of the combination, SA4ML and ML4SA. This year, we especially welcome work on foundation-model-based, LLM-based, and agentic systems.
+SAML, the International Workshop on Software Architecture and Machine Learning, brings together researchers and practitioners working at the intersection of software architecture and modern ML techniques, including classical ML, LLMs, GenAI, and agentic AI. The workshop covers both directions of the combination, SA4ML and ML4SA. This year, we especially welcome work on foundation-model-based, LLM-based, and agentic systems.
 
 The theme has two complementary directions. First, how should we architect agentic AI systems whose behavior emerges from models, tools, data, memory, workflows, and runtime control mechanisms? Second, how can agentic AI techniques support software architecture activities such as design exploration, documentation, analysis, evaluation, decision-making, and evolution?
 
@@ -37,12 +37,12 @@ SAML 2027 welcomes work in either direction below, and especially work that conn
     <p class="cfp-panel__title">Software Architecture for Agentic AI Systems</p>
     <p>How should we design, evaluate, operate, and evolve systems whose behavior emerges from models, tools, memory, data, workflows, and runtime governance?</p>
     <ul>
-      <li>Architecture design, evaluation, patterns, and trade-offs for ML-, LLM-, and agentic systems</li>
+      <li>Architecture design, evaluation, patterns, and trade-offs for ML, LLM, and agentic systems</li>
       <li>Runtime architecture for orchestration, tool integration, memory and state management, monitoring, governance, and harness engineering</li>
-      <li>Data, ML, and LLM pipelines and workflows</li>
+      <li>Architecting data, ML, and LLM pipelines or workflows</li>
       <li>MLOps, LLMOps, and AgentOps practices from a software architecture perspective</li>
-      <li>Quality attributes, technical debt, and evolution of ML-, LLM-, and agentic systems</li>
-      <li>Human, organizational, and social aspects of architecting AI-enabled systems</li>
+      <li>Quality attributes, technical debt, and evolution of ML, LLM, and agentic systems</li>
+      <li>Human, organizational, and social aspects of architecting ML-enabled systems</li>
     </ul>
   </section>
   <section class="cfp-panel cfp-panel--agentic">
