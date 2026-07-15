@@ -24,13 +24,13 @@ cfp_glance:
 **Theme for 2027: Software Architecture Meets Agentic AI**, covering both **software architecture for agentic AI systems** and **agentic AI for software architecture**.
 {: .notice--info}
 
-SAML 2027 invites researchers and practitioners to explore the intersection of software architecture and modern AI-enabled systems. This year, we especially welcome work on foundation-model, LLM-based, and agentic systems.
+SAML, the International Workshop on Software Architecture and Machine Learning (SAML) brings together researchers and practitioners working at the intersection of software architecture and modern ML techniques, including classical ML, LLMs, GenAI, and agentic AI. The workshop covers both directions of the combination, SA4ML and ML4SA. This year, we especially welcome work on foundation-model-based, LLM-based, and agentic systems.
 
-The theme has two complementary directions. First, how should we architect AI systems whose behavior emerges from models, tools, data, memory, workflows, and runtime control mechanisms? Second, how can agentic AI, ML, and LLM techniques support software architecture activities such as design exploration, documentation, analysis, evaluation, decision-making, and evolution?
+The theme has two complementary directions. First, how should we architect agentic AI systems whose behavior emerges from models, tools, data, memory, workflows, and runtime control mechanisms? Second, how can agentic AI techniques support software architecture activities such as design exploration, documentation, analysis, evaluation, decision-making, and evolution?
 
 ## Topics of Interest
 
-SAML 2027 welcomes work in either direction below, and especially work that connects both.
+SAML 2027 welcomes work in either direction below, and especially work that connects both. While our focus in the next edition is on agentic AI, all other forms of ML and their intersection with software architecture are still very welcome as submissions.
 
 <div class="cfp-direction-grid">
   <section class="cfp-panel cfp-panel--architecture">

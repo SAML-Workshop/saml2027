@@ -11,11 +11,11 @@ header:
 ---
 
 ## Welcome!
-The **6th International Workshop on Software Architecture and Machine Learning (SAML 2027)** is organized around the theme **Software Architecture Meets Agentic AI**. The theme covers two complementary directions: **software architecture for agentic AI systems** and **agentic AI for software architecture**.
+SAML, the International Workshop on Software Architecture and Machine Learning (SAML) brings together researchers and practitioners working at the intersection of software architecture and modern ML techniques, including classical ML, LLMs, GenAI, and agentic AI. The workshop covers both directions of the combination, SA4ML and ML4SA.
 
-SAML 2027 will be co-located with the IEEE International Conference on Software Architecture (ICSA) 2027 in **Sydney, Australia**, March 8-12, 2027. The exact SAML workshop date will be announced.
+The **6th edition, SAML 2027** will be co-located with the IEEE International Conference on Software Architecture (ICSA) 2027 in **Sydney, Australia**, March 8-12, 2027. The exact SAML workshop date will be announced.
 
-SAML 2027 brings together researchers and practitioners working at the intersection of software architecture and modern AI-enabled systems. The workshop especially welcomes work on **architecting ML-, LLM-, and agentic systems**, as well as work on **using agentic AI, ML, and LLMs to support software architecture practice**.
+The upcoming edition is organized around the theme **Software Architecture Meets Agentic AI**.  SAML 2027 therefore especially welcomes work on **architecting agentic AI systems** and **using agentic AI to support software architecture practice**.
 
 ## Theme for 2027: Software Architecture Meets Agentic AI
 
