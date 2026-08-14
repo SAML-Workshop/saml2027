@@ -14,8 +14,6 @@ cfp_glance:
     value: "Jan 19, 2027"
   - label: "Camera-ready"
     value: "Jan 29, 2027"
-  - label: "Award"
-    value: "Best Paper/Presentation"
 ---
 
 **Theme for 2027: Software Architecture Meets Agentic AI**
@@ -70,9 +68,7 @@ We solicit two types of submissions:
   </section>
 </div>
 
-SAML 2027 does not solicit full research papers. We aim for submissions that support workshop-style discussion, feedback, and community building.
-
-SAML 2027 will include a **Best Paper/Presentation Award**.
+SAML 2027 does **not** solicit full research papers. We aim for submissions that support workshop-style discussion, feedback, and community building.
 
 ## Submission and Review
 
@@ -82,7 +78,7 @@ All submissions must be original work and must not have been previously publishe
 
 ## Proceedings
 
-The accepted papers are expected to be published in the _ICSA 2027 Companion proceedings_ and appear in _IEEE Xplore Digital Library_. At least one author of each accepted paper should register for the conference and participate in the workshop to present the paper in person. Papers that are not presented will be excluded from the proceedings.
+All accepted papers will be published in the ICSA Companion proceedings and appear in the IEEE Xplore Digital Library. At least one author of each accepted paper must register for the conference and participate in the workshop to present the paper in person. Papers that are not presented will be excluded from the proceedings.
 
 
 ## Submission Deadlines
@@ -94,35 +90,36 @@ The accepted papers are expected to be published in the _ICSA 2027 Companion pro
 | **Paper submission** | Dec 20, 2026
 | **Notification of acceptance** | Jan 19, 2027
 | **Camera-ready submission** | Jan 29, 2027
-| **Workshop date** | TBA
+| **Workshop date** | Either Mar 8 or Mar 9, 2027 (TBA)
 
 
 ## Registered Reports & Expected Timeline
 
-A registered report (RR) focuses review on the significance of the research question and the quality of the planned study design before the study is executed. For SAML, an RR can be understood as a full research paper without the Results and Discussion sections.
+A registered report (RR) focuses on the significance of the research question and the quality of the planned study design **before** the study is executed. For SAML, an RR can be understood as a full research paper without the Results and Discussion sections (stage-1 publication).
 
 RRs are intended to support early feedback on study design, reduce risks such as outcome-driven reporting or bias against negative results, and provide a structured path toward a full journal paper after study execution. They are especially suitable for confirmatory and quantitative studies, but exploratory or qualitative studies can also be submitted when the study design is clear and reviewable.
 
-For a deeper introduction to registered reports in software engineering, see [Ernst and Baldassarre (2023)](https://link.springer.com/article/10.1007/s10664-022-10235-5). For details on ACM TOSEM's registered-report track, see the [ACM TOSEM registered papers page](https://dl.acm.org/journal/tosem/registered-papers).
+For a more detailed introduction to registered reports in software engineering, see [Ernst and Baldassarre (2023)](https://link.springer.com/article/10.1007/s10664-022-10235-5). For details on how ACM TOSEM handles RRs, please refer to [their website](https://dl.acm.org/journal/tosem/registered-papers).
 
-**RR at a glance**
+**RRs at a Glance**
 
-+ Stage 1 submission: study design, without Results and Discussion sections
-+ Page limit: 6 pages + 2 pages for references
-+ SAML outcome: reject, accept with revisions, or accept as is
-+ Accepted stage 1 submissions are expected to appear in the ICSA 2027 Companion proceedings
-+ Post-workshop path: revised stage 1 submission to the ACM TOSEM registered-report track
+- Stage-1 submission: detailed study design (full paper without Results and Discussion sections)
+- Page limit: 6 pages + 2 pages for references
+- SAML outcome: reject, accept with revisions, or accept as is
+- Accepted stage-1 submissions will appear in the ICSA 2027 Companion proceedings
+- Post-workshop path: revised stage-1 submission to the ACM TOSEM Registered Report Track, followed by study execution and stage-2 submission
 
-The expected SAML 2027 RR process is:
+The expected SAML 2027 RR process is as follows:
 
-1. SAML solicits RR stage 1 submissions, i.e., study design descriptions. Authors should submit abstracts by Dec 16, 2026 and full papers by Dec 20, 2026.
-2. Reviewers who agree to review RR submissions for SAML also agree to review the later stage 2 submissions at TOSEM, where possible.
-3. Each RR stage 1 submission receives one of three outcomes: reject, accept with revisions, or accept as is. The SAML 2027 notification date is Jan 19, 2027.
-4. Accepted RR stage 1 submissions are expected to be published in the ICSA 2027 Companion proceedings. The SAML 2027 camera-ready deadline is Jan 29, 2027.
-5. At the SAML workshop, accepted RR stage 1 submissions are presented and discussed, with the goal of further improving the planned study.
-6. Authors revise the RR stage 1 paper after the workshop and submit it to the ACM TOSEM registered-report track. The exact post-workshop target date will be announced.
-7. Reviewer contact details for accepted RR submissions are forwarded to TOSEM, subject to reviewer agreement.
-8. TOSEM invites the reviewers. If no changes were requested, the stage 1 submission can be greenlit; otherwise, reviewers check whether the requested updates have been addressed. The stage 1 submission is not published again at TOSEM.
-9. Once the RR stage 1 submission is accepted at TOSEM, it forms an agreement: if the authors follow the approved study design and reasonably explain any deviations, the final paper can be accepted regardless of whether the results are positive, negative, or inconclusive.
-10. Authors execute the study and submit the stage 2 paper to TOSEM. The same reviewers are invited where possible, and the submission is handled as a continuation of the accepted stage 1 report.
-11. Stage 2 review focuses on whether the approved study design was followed, whether deviations are justified, and whether the final paper clearly presents and discusses the results.
+1. SAML solicits RR stage-1 submissions, i.e., the study design descriptions (deadline: see above).
+2. SAML reviewers that agree to review RR submissions also agree to review the stage-2 submissions at TOSEM later on, i.e., the full papers written after study execution.
+3. Each RR stage-1 submission at SAML receives one of three outcomes: reject, accept with revisions, or accept as is (notification: see above).
+4. Accepted RR stage-1 submissions are published in the ICSA Companion proceedings (camera-ready deadline: see above).
+5. At the SAML workshop, accepted RR stage-1 submissions are presented and discussed, with the goal of further improving the planned study.
+6. Authors revise the RR stage-1 paper after the workshop and submit it to the ACM TOSEM RR Track. (deadline: ~1 month after the workshop).
+7. Reviewer contact details for each accepted RR submission are forwarded to TOSEM.
+8. TOSEM invites the reviewers. If no changes were requested, they greenlight the submission; otherwise, reviewers check the updates. The stage-1 submission is not published again at TOSEM.
+9. Once the RR stage-1 submission is accepted at TOSEM, it forms an agreement: if the authors follow the approved study design and reasonably explain any deviations, the final paper can be accepted regardless of whether the results are positive, negative, or inconclusive.
+10. Authors execute the study and extend the stage-1 submission with the results and discussion into a true full research paper (stage-2 submission).
+11. Authors submit the stage-2 submission to TOSEM. The same reviewers are invited. It is treated internally as a major revision (deadline: ~6 months after the stage-1 RR acceptance).
+12. Stage-2 reviews focus on whether the approved study design was followed, whether deviations are justified, and whether the final paper clearly presents and discusses the results. A rejection will only be used if the authors deviated strongly from their initial study design without reasonable justifications.

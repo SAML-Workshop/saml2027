@@ -9,7 +9,7 @@ sidebar:
 
 The exact SAML 2027 workshop date and detailed program will be announced.
 
-SAML 2027 is planned as a full-day workshop with a keynote, paper presentations, a panel discussion, a working session on both directions of the 2027 theme, and a Best Paper/Presentation Award.
+SAML 2027 is planned as a full-day workshop with a keynote, paper presentations, a panel discussion, and a working session on both directions of the 2027 theme.
 
 | Start |  End  | Session |
 | :---: | :---: | :------ |

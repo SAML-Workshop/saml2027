@@ -28,7 +28,6 @@ SAML keeps its established identity while explicitly broadening its scope for th
 
 | 2026-06-19 | The SAML 2027 website is online.
 | 2026-06-19 | The SAML 2027 theme is **Software Architecture Meets Agentic AI**, covering both architecture for agentic AI and agentic AI for architecture.
-| 2026-06-19 | SAML 2027 will include a **Best Paper/Presentation Award**.
 {: .news-table}
 
 ## Important Dates
