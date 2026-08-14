@@ -97,7 +97,7 @@ All accepted papers will be published in the ICSA Companion proceedings and appe
 
 A registered report (RR) focuses on the significance of the research question and the quality of the planned study design **before** the study is executed. For SAML, an RR can be understood as a full research paper without the Results and Discussion sections (stage-1 publication).
 
-RRs are intended to support early feedback on study design, reduce risks such as outcome-driven reporting or bias against negative results, and provide a structured path toward a full journal paper after study execution. They are especially suitable for confirmatory and quantitative studies, but exploratory or qualitative studies can also be submitted when the study design is clear and reviewable.
+RRs are intended to support early feedback on the study design, reduce risks such as outcome-driven reporting or bias against negative results, and provide a structured path toward a full journal paper after study execution (stage-2 publication). They are especially suitable for confirmatory and quantitative studies, but exploratory or qualitative studies can also be submitted when the study design is clear and reviewable.
 
 For a more detailed introduction to registered reports in software engineering, see [Ernst and Baldassarre (2023)](https://link.springer.com/article/10.1007/s10664-022-10235-5). For details on how ACM TOSEM handles RRs, please refer to [their website](https://dl.acm.org/journal/tosem/registered-papers).
 
@@ -109,7 +109,7 @@ For a more detailed introduction to registered reports in software engineering, 
 - Accepted stage-1 submissions will appear in the ICSA 2027 Companion proceedings
 - Post-workshop path: revised stage-1 submission to the ACM TOSEM Registered Report Track, followed by study execution and stage-2 submission
 
-The expected SAML 2027 RR process is as follows:
+The detailed SAML 2027 RR process is as follows:
 
 1. SAML solicits RR stage-1 submissions, i.e., the study design descriptions (deadline: see above).
 2. SAML reviewers that agree to review RR submissions also agree to review the stage-2 submissions at TOSEM later on, i.e., the full papers written after study execution.
