@@ -1,5 +1,5 @@
 ---
-title: Organizing Committee
+title: Organizing Committee (Co-Chairs)
 layout: single
 permalink: /organization/
 sidebar:

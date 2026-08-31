@@ -75,7 +75,6 @@ We solicit two types of submissions:
 
 SAML 2027 does not solicit full research papers. We aim for submissions that support workshop-style discussion, feedback, and community building.
 
-SAML 2027 will include a **Best Paper/Presentation Award**.
 
 ## Submission and Review
 
