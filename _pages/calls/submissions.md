@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 toc_icon: "cog"
 cfp_glance:
-  - label: "Abstract due"
+  - label: "Abstract due (Mandatory)"
     value: "Dec 16, 2026"
   - label: "Paper due"
     value: "Dec 20, 2026"
@@ -86,7 +86,7 @@ All accepted papers will be published in the ICSA Companion proceedings and appe
 <b>All deadlines are 11:59 pm <a target="_blank" href="https://www.timeanddate.com/time/zone/timezone/utc-12">UTC -12h</a> ("Anywhere on Earth").</b>
 
 {: .news-table}
-| **Abstract submission** | Dec 16, 2026
+| **Abstract submission (Mandatory)** | Dec 16, 2026
 | **Paper submission** | Dec 20, 2026
 | **Notification of acceptance** | Jan 19, 2027
 | **Camera-ready submission** | Jan 29, 2027
