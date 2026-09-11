@@ -121,5 +121,5 @@ The detailed SAML 2027 RR process is as follows:
 8. TOSEM invites the reviewers. If no changes were requested, they greenlight the submission; otherwise, reviewers check the updates. The stage-1 submission is not published again at TOSEM.
 9. Once the RR stage-1 submission is accepted at TOSEM, it forms an agreement: if the authors follow the approved study design and reasonably explain any deviations, the final paper can be accepted regardless of whether the results are positive, negative, or inconclusive.
 10. Authors execute the study and extend the stage-1 submission with the results and discussion into a true full research paper (stage-2 submission).
-11. Authors submit the stage-2 submission to TOSEM. The same reviewers are invited. It is treated internally as a major revision (deadline: ~6 months after the stage-1 RR acceptance).
+11. Authors submit the stage-2 submission to TOSEM. The same reviewers are invited. It is treated internally as a major revision (deadline: ~3 months after the stage-1 RR acceptance).
 12. Stage-2 reviews focus on whether the approved study design was followed, whether deviations are justified, and whether the final paper clearly presents and discusses the results. A rejection will only be used if the authors deviated strongly from their initial study design without reasonable justifications.
