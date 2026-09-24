@@ -33,7 +33,7 @@ SAML keeps its established identity while explicitly broadening its scope for th
 ## Important Dates
 <b>All deadlines are 11:59 pm <a target="_blank" href="https://www.timeanddate.com/time/zone/timezone/utc-12">UTC -12h</a> ("Anywhere on Earth").</b>
 
-| **Abstract submission** | Dec 16, 2026
+| **Abstract submission (Mandatory)** | Dec 16, 2026
 | **Paper submission** | Dec 20, 2026
 | **Notification of acceptance** | Jan 19, 2027
 | **Camera-ready submission** | Jan 29, 2027
