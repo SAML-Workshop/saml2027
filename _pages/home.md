@@ -26,8 +26,9 @@ SAML keeps its established identity while explicitly broadening its scope for th
 
 ## News
 
-| 2026-06-19 | The SAML 2027 website is online.
+| 2026-09-24 | The Abstraction submission for SAML 2027 is **Mandatory**, due on Dec 16, 2026.
 | 2026-06-19 | The SAML 2027 theme is **Software Architecture Meets Agentic AI**, covering both architecture for agentic AI and agentic AI for architecture.
+| 2026-06-19 | The SAML 2027 website is online.
 {: .news-table}
 
 ## Important Dates
