@@ -5,6 +5,7 @@
 @charset "utf-8";
 
 $link-color: #2020df;
+$primary-color: #006b95;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -45,6 +46,16 @@ $link-color: #2020df;
   }
 }
 
+@media (max-width: 374px) {
+  .layout--splash .page__hero--overlay {
+    min-height: 53.333vw;
+  }
+}
+
+.layout--splash #main {
+  max-width: 80ch;
+}
+
 .masthead .greedy-nav a,
 .masthead .greedy-nav a:visited {
   color: #2a313c;
@@ -65,9 +76,51 @@ $link-color: #2020df;
   line-height: 1.62;
 }
 
+@include breakpoint($large) {
+  .page--no-sidebar {
+    width: 100%;
+  }
+
+  .page--no-toc {
+    padding-right: 0;
+  }
+}
+
+.committee-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+
+  .author__content {
+    min-width: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .author__name {
+    margin: 0 0 .35rem;
+    padding: 0;
+    border: 0;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  .author__bio {
+    margin: 0 0 .5rem;
+    line-height: 1.5;
+
+    a {
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
+}
+
 .committee-member__avatar {
-  width: 120px;
-  min-width: 120px;
+  flex: 0 0 104px;
+  width: 104px;
+  min-width: 104px;
   vertical-align: top;
 
   img {
@@ -101,7 +154,13 @@ $link-color: #2020df;
 }
 
 @media (max-width: 480px) {
+  .committee-member {
+    flex-direction: column;
+    gap: .5rem;
+  }
+
   .committee-member__avatar {
+    flex-basis: auto;
     width: 96px;
     min-width: 96px;
 
@@ -123,27 +182,31 @@ $link-color: #2020df;
 }
 
 .news-table {
-  font-size: .9em;
+  display: table;
+  width: 100%;
+  font-size: 1rem;
   table-layout: fixed;
 
-  tr td:nth-child(1) {
+  th[scope="row"] {
     font-weight: bold;
-    width: 10em;
+    width: 7.5em;
+    background: transparent;
+  }
+
+  th,
+  td {
+    vertical-align: top;
   }
 }
 
-.layout--splash .page__content .news-table {
-  font-size: .75em;
-}
-
-.layout--splash .page__content .dates-table tr td:nth-child(1) {
-  width: 15em;
+.dates-table th[scope="row"] {
+  width: 55%;
 }
 
 .cfp-direction-grid,
 .cfp-submission-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   margin: 1rem 0 1.6rem;
 }
@@ -202,6 +265,16 @@ $link-color: #2020df;
   margin-bottom: 1rem;
 }
 
+.toc .nav__title,
+.toc__menu {
+  font-size: 16px;
+}
+
+.page__content .toc .nav__title {
+  margin: 0;
+  border-bottom: 0;
+}
+
 .page__content .cfp-sidebar-glance__list {
   margin: 0;
   padding: 0;
@@ -238,7 +311,7 @@ $link-color: #2020df;
   overflow-wrap: break-word;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px), (min-width: 1024px) and (max-width: 1279px) {
   .page__content .cfp-sidebar-glance__item {
     grid-template-columns: 1fr;
     row-gap: .05rem;
@@ -246,5 +319,15 @@ $link-color: #2020df;
 
   .page__content .cfp-sidebar-glance__value {
     text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #main,
+  .masthead,
+  .page__hero--overlay,
+  .page__hero--overlay .wrapper,
+  .page__footer {
+    animation: none;
   }
 }

@@ -23,6 +23,12 @@ $(document).ready(function() {
 
   var availableSpace, numOfVisibleItems, requiredSpace, timer;
 
+  function setOpen(open) {
+    $hlinks.toggleClass("hidden", !open);
+    $btn.toggleClass("close", open).attr("aria-expanded", String(open));
+    clearTimeout(timer);
+  }
+
   function check() {
     // Get instant state
     availableSpace = $vlinks.width() - $btn.width();
@@ -50,6 +56,7 @@ $(document).ready(function() {
     $btn.attr("count", numOfItems - numOfVisibleItems);
     if (numOfVisibleItems === numOfItems) {
       $btn.addClass("hidden");
+      setOpen(false);
     } else {
       $btn.removeClass("hidden");
     }
@@ -61,17 +68,29 @@ $(document).ready(function() {
   });
 
   $btn.on("click", function() {
-    $hlinks.toggleClass("hidden");
-    $(this).toggleClass("close");
-    clearTimeout(timer);
+    setOpen($btn.attr("aria-expanded") !== "true");
+  });
+
+  $(document).on("keydown", function(event) {
+    if (event.key === "Escape" && $btn.attr("aria-expanded") === "true") {
+      setOpen(false);
+      $btn.focus();
+    }
+  });
+
+  $(document).on("click", function(event) {
+    if (!$(event.target).closest("nav.greedy-nav").length) {
+      setOpen(false);
+    }
   });
 
   $hlinks
     .on("mouseleave", function() {
       // Mouse has left, start the timer
       timer = setTimeout(function() {
-        $hlinks.addClass("hidden");
-        $btn.toggleClass("close");
+        if (!$hlinks.find(":focus").length) {
+          setOpen(false);
+        }
       }, closingTime);
     })
     .on("mouseenter", function() {

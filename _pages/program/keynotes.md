@@ -2,9 +2,7 @@
 title: Keynote
 layout: single
 permalink: /program/keynotes/
-toc: true
-toc_sticky: true
-toc_icon: "cog"
+toc: false
 sidebar:
     nav: program
 ---

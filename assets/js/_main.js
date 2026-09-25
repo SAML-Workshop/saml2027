@@ -68,7 +68,7 @@ $(document).ready(function() {
   // Smooth scrolling
   var scroll = new SmoothScroll('a[href*="#"]', {
     offset: 20,
-    speed: 400,
+    speed: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 400,
     speedAsDuration: true,
     durationMax: 500
   });

@@ -1,12 +1,13 @@
 ---
 title: Call for Papers
+description: "Submit registered reports or short papers to SAML 2027. Mandatory abstracts are due December 16, 2026; papers are due December 20, 2026."
 layout: single
 permalink: /calls/submissions
 toc: true
 toc_sticky: true
 toc_icon: "cog"
 cfp_glance:
-  - label: "Abstract due (Mandatory)"
+  - label: "Abstract due (mandatory)"
     value: "Dec 16, 2026"
   - label: "Paper due"
     value: "Dec 20, 2026"
@@ -19,17 +20,17 @@ cfp_glance:
 **Theme for 2027: Software Architecture Meets Agentic AI**
 {: .notice--info}
 
-SAML, the International Workshop on Software Architecture and Machine Learning, brings together researchers and practitioners working at the intersection of software architecture and modern ML techniques, including classical ML, LLMs, GenAI, and agentic AI. The workshop covers both directions of the combination, SA4ML and ML4SA. This year, we especially welcome work on foundation-model-based, LLM-based, and agentic systems.
+The International Workshop on Software Architecture and Machine Learning (SAML) brings together researchers and practitioners working at the intersection of software architecture and modern ML techniques, including classical ML, LLMs, GenAI, and agentic AI. The workshop covers both software architecture for machine learning (SA4ML) and machine learning for software architecture (ML4SA). This year, we especially welcome work on foundation-model-based, LLM-based, and agentic systems.
 
 The theme has two complementary directions. First, how should we architect agentic AI systems whose behavior emerges from models, tools, data, memory, workflows, and runtime control mechanisms? Second, how can agentic AI techniques support software architecture activities such as design exploration, documentation, analysis, evaluation, decision-making, and evolution?
 
 ## Topics of Interest
 
-SAML 2027 welcomes work in either direction below, and especially work that connects both. While our focus in the next edition is on agentic AI, all other forms of ML and their intersection with software architecture are still very welcome as submissions.
+SAML 2027 welcomes work in either direction below, and especially work that connects both. While the 2027 theme focuses on agentic AI, all other forms of ML and their intersection with software architecture are also welcome.
 
 <div class="cfp-direction-grid">
   <section class="cfp-panel cfp-panel--architecture">
-    <p class="cfp-panel__title">Software Architecture for Agentic AI Systems</p>
+    <h3 class="cfp-panel__title">Software Architecture for Agentic AI Systems</h3>
     <p>How should we design, evaluate, operate, and evolve systems whose behavior emerges from models, tools, memory, data, workflows, and runtime governance?</p>
     <ul>
       <li>Architecture design, evaluation, patterns, and trade-offs for ML, LLM, and agentic systems</li>
@@ -41,7 +42,7 @@ SAML 2027 welcomes work in either direction below, and especially work that conn
     </ul>
   </section>
   <section class="cfp-panel cfp-panel--agentic">
-    <p class="cfp-panel__title">Agentic AI for Software Architecture</p>
+    <h3 class="cfp-panel__title">Agentic AI for Software Architecture</h3>
     <p>How can agentic AI, ML, and LLM techniques help architects design, analyze, document, evaluate, decide, refactor, and evolve software systems?</p>
     <ul>
       <li>Agentic AI, ML, and LLMs for architecture design, analysis, evaluation, and decision-making</li>
@@ -57,12 +58,12 @@ We solicit two types of submissions:
 
 <div class="cfp-submission-grid">
   <section class="cfp-panel cfp-panel--rr">
-    <p class="cfp-panel__title">Registered Reports</p>
+    <h3 class="cfp-panel__title">Registered Reports</h3>
     <p>Detailed study designs submitted for feedback before study execution, with a clear path toward a full paper in <a href="https://dl.acm.org/journal/tosem/registered-papers">ACM TOSEM</a>.</p>
     <p><strong>Limit:</strong> 6 pages + 2 pages for references.</p>
   </section>
   <section class="cfp-panel cfp-panel--short">
-    <p class="cfp-panel__title">Short Papers</p>
+    <h3 class="cfp-panel__title">Short Papers</h3>
     <p>Industry experience reports, position papers, vision papers, reflection papers, and new idea papers that support workshop discussion.</p>
     <p><strong>Limit:</strong> 5 pages + 1 page for references.</p>
   </section>
@@ -72,9 +73,13 @@ SAML 2027 does **not** solicit full research papers. We aim for submissions that
 
 ## Submission and Review
 
-The submission site and SAML 2027 track details will be announced once they are available. Submissions must follow the [IEEE conference proceedings format](https://www.ieee.org/conferences/publishing/templates.html) and use a **single-anonymous** review process, where author identities are visible to reviewers. Each submission will receive at least three reviews.
+ICSA 2027 uses [EasyChair](https://easychair.org/my/conference?conf=icsa2027) for submissions. The opening of the SAML 2027 track and track-selection instructions will be announced here. For questions in the meantime, please contact the [organizing committee]({{ '/organization/' | relative_url }}).
+
+Submissions must follow the [IEEE conference proceedings format](https://www.ieee.org/conferences/publishing/templates.html) and use a **single-anonymous** review process, where author identities are visible to reviewers. Each submission will receive at least three reviews.
 
 All submissions must be original work and must not have been previously published or be under consideration elsewhere. Artifacts, if any, can be shared through repositories such as [Zenodo](https://zenodo.org/) or [Figshare](https://figshare.com/) and linked from the paper.
+
+Under the [ICSA 2027 workshop rules](https://conf.researchr.org/track/icsa-2027/icsa-2027-workshops), the author list cannot be changed after submission, and SAML organizers cannot submit papers to SAML.
 
 ## Proceedings
 
@@ -83,14 +88,17 @@ All accepted papers will be published in the ICSA Companion proceedings and appe
 
 ## Submission Deadlines
 
-<b>All deadlines are 11:59 pm <a target="_blank" href="https://www.timeanddate.com/time/zone/timezone/utc-12">UTC -12h</a> ("Anywhere on Earth").</b>
+**All submission deadlines are 11:59 pm [UTC−12](https://www.timeanddate.com/time/zone/timezone/utc-12) (Anywhere on Earth).**
 
-{: .news-table}
-| **Abstract submission (Mandatory)** | Dec 16, 2026
-| **Paper submission** | Dec 20, 2026
-| **Notification of acceptance** | Jan 19, 2027
-| **Camera-ready submission** | Jan 29, 2027
-| **Workshop date** | Either Mar 8 or Mar 9, 2027 (TBA)
+<table class="news-table dates-table" aria-label="Submission deadlines">
+  <tbody>
+    <tr><th scope="row">Abstract submission (mandatory)</th><td>Dec 16, 2026</td></tr>
+    <tr><th scope="row">Paper submission</th><td>Dec 20, 2026</td></tr>
+    <tr><th scope="row">Notification of acceptance</th><td>Jan 19, 2027</td></tr>
+    <tr><th scope="row">Camera-ready submission</th><td>Jan 29, 2027</td></tr>
+    <tr><th scope="row">Workshop date</th><td>Mar 8 or 9, 2027 (exact date to be announced)</td></tr>
+  </tbody>
+</table>
 
 
 ## Registered Reports & Expected Timeline
@@ -101,7 +109,7 @@ RRs are intended to support early feedback on the study design, reduce risks suc
 
 For a more detailed introduction to registered reports in software engineering, see [Ernst and Baldassarre (2023)](https://link.springer.com/article/10.1007/s10664-022-10235-5). For details on how ACM TOSEM handles RRs, please refer to [their website](https://dl.acm.org/journal/tosem/registered-papers).
 
-**RRs at a Glance**
+### RRs at a Glance
 
 - Stage-1 submission: detailed study design (full paper without Results and Discussion sections)
 - Page limit: 6 pages + 2 pages for references

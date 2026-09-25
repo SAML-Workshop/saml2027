@@ -22,9 +22,9 @@ title                    : "SAML 2027"
 title_separator          : "-"
 name                     : "SAML 2027"
 description              : "Official website of SAML 2027, the 6th International Workshop on Software Architecture and Machine Learning, themed Software Architecture Meets Agentic AI"
-url                      : "https://sa-ml.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://saml-workshop.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/saml2027" # the subpath of your site, e.g. "/blog"
-repository               : "sa-ml/saml2027" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "SAML-Workshop/saml2027" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/SAML2027-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "SAML 2027" # overrides the website title displayed in the masthead, use " " for no title
@@ -63,7 +63,7 @@ facebook:
   username               : 
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/SAML2027-banner.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -118,7 +118,7 @@ footer:
     #   url: https://facebook.com/
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/sa-ml/saml2027
+      url: https://github.com/SAML-Workshop/saml2027
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   url:

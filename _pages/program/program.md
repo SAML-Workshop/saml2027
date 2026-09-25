@@ -11,6 +11,10 @@ The exact SAML 2027 workshop date and detailed program will be announced.
 
 SAML 2027 is planned as a full-day workshop with a keynote, paper presentations, a panel discussion, and a working session on both directions of the 2027 theme.
 
+## Provisional Schedule
+
+The schedule below is provisional and subject to change. All times are local to Sydney. The workshop is planned for March 8 or 9, 2027; the exact date will be announced.
+
 | Start |  End  | Session |
 | :---: | :---: | :------ |
 | 09:00 | 09:15 | Welcome |
